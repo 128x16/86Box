@@ -47,7 +47,7 @@ typedef struct sis_85c4xx_t {
     uint8_t    shadowed;
     uint8_t    smram_enabled;
     uint8_t    pad;
-    uint8_t    regs[39];
+    uint8_t    regs[118];
     uint8_t    scratch[2];
     uint32_t   mem_state[8];
     smram_t   *smram;
